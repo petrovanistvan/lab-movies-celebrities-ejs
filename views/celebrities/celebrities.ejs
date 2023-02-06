@@ -1,0 +1,4 @@
+<h2>celebrities:</h2>
+<% if (!hopper.length) { %> There is nothing in the DB <% } %> <% hopper.forEach(celeb => { %>
+  <h2><%=celeb.name%></h2>
+<% }) %>
